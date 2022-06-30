@@ -1,0 +1,317 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+label{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+
+a:hover {
+    color:#000; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+.navigation-top{
+    display: flex;
+    justify-content: space-around;
+    width: 1024px;
+    margin-bottom: 20px;
+}
+.tel {
+        height: 40px;
+        border: none;
+        background-color: #74BDBF;
+        cursor: pointer;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #fff;
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+      }
+.navigation{
+    margin-top: 20px;
+    
+}
+.navigation-bottom{
+    display: flex;
+    justify-content: space-around;
+    width: 1024px;
+    background-color: #74BDBF;
+    
+    
+}
+.navigation-bottom-list{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+    color: #000;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+form {
+    position: relative;
+    width: 300px;
+    margin: 10px auto;
+    height: 40px;
+  }
+.imput {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #7BA7AB;
+    outline: none;
+
+  }
+
+  .search {
+    position: absolute; 
+    top: 0;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #000;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  .search:before {
+    content: "\f002";
+    font-size: 16px;
+    color: #F9F0DA;
+  }
+  .footer{
+    background-color: #74BDBF;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    width: 1024px;
+  }
+  .footer-text{
+      margin-left: 100px;
+      line-height: 2;
+      font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+      color:#fff;
+      margin-top: 100px;
+  }
+
+
+
+  .header{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .catalog-color{
+    background-color: #bfeaeb;
+    display: flex;
+    justify-content: space-around;
+    width: 1024px;
+    padding-top: 20px;
+  }
+  .card-img{
+      height: 200px;    
+      width: 280px;
+      margin-bottom: 10px;
+  }
+  .catalog-type-name{
+      text-align: center;
+      margin-bottom: 20px;
+      font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+      color:#000;
+  }
+  .catalog-card-button{
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+  }
+.catalog-card-button-incart{
+    width: 130px;
+        height: 40px;
+        border: none;
+        background-color: #74BDBF;
+        cursor: pointer;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #fff;
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+.catalog-card-button-in1clik{
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: #74BDBF;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+.cart-list{
+    margin-left: 50px;
+}
+.cart-list-tovar{
+    display: flex;
+    margin-left: 50px;
+    width: 1024px;
+}
+.cart-list-tovar-number{
+    width: 30px;
+    background-color: #f3f3f3;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+.cart-list-tovar-name{
+    width: 400px;
+    background-color: #fff;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+.cart-list-tovar-price{
+    width: 100px;
+    background-color: #f3f3f3;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+.cart-button{
+    width: 130px;
+        height: 40px;
+        border: none;
+        background-color: #74BDBF;
+        cursor: pointer;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #fff;
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+.summa{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-oformlenie{
+    width: 1024px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.oformlenie-delivery-out{
+    margin-left: 50px;
+
+    height: 40px;
+    border: none;
+    background-color: #74BDBF;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.GOD{
+    width: 100px;
+}
+.month{
+    width: 150px;
+}
+.cvv{
+    width: 150px;
+}
+input{
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #7BA7AB;
+    outline: none;
+    margin-bottom: 20px;
+}
+.auto-color{
+    background-color: #74BDBF;
+    height: 100%;
+    padding-top: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 300px;
+}
+.auto-button{
+    margin-left: 50px;
+width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #74BDBF;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+.mapouter {
+    position: relative;
+    height: 300px;
+    width: 450px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 450px;
+}
+iframe{
+    border: 0px;
+    overflow: hidden;
+    margin: 0;
+}
